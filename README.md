@@ -1,8 +1,8 @@
-# SAMS_Metagenomics
+# SAMS2_Metagenomics
 
-## Healthy Ageing Shotgun Metagenomics Project
+## Healthy Ageing Shotgun Metagenomics Project to compare between Healthy vs Resilient Vs Unhealthy groups of individuals aged 55 and above
 
-This repository contains the shotgun metagenomics workflow used for the **SAMS healthy ageing gut microbiome project**.
+This repository contains the shotgun metagenomics workflow used for the **SAMS2 healthy ageing gut microbiome project** 
 
 The workflow processes paired-end shotgun metagenomic FASTQ files from raw reads through preprocessing, host-read removal, taxonomic profiling, functional profiling, quality-control summaries, and downstream visualization-ready abundance tables.
 
