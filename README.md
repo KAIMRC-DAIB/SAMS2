@@ -9,7 +9,6 @@ The workflow processes paired-end shotgun metagenomic FASTQ files from raw reads
 ## Important Notes
 
 - The final taxonomic profiling workflow uses **MetaPhlAn4**.
-- The script `05_kraken2_bracken_v2.sh` is present in the repository, but Kraken2/Bracken was **not used in the final analysis for this study**.
 - Most paths in this README reflect the local project layout used for this analysis:
 
 ```bash
@@ -37,7 +36,6 @@ Current contents:
 03_bowtie2_host_removal_v3.sh
 04_clumpify_dedup_v3.sh
 04b_sanitize_fastq.sh
-05_kraken2_bracken_v2.sh
 06_metaphlan_v2.sh
 06b_metaphlan_postprocess.sh
 06c_metaphlan_for_humann_vJun23.sh
@@ -65,7 +63,6 @@ README.md
 │   ├── 03_bowtie2_host_removal_v3.sh
 │   ├── 04_clumpify_dedup_v3.sh
 │   ├── 04b_sanitize_fastq.sh
-│   ├── 05_kraken2_bracken_v2.sh
 │   ├── 06_metaphlan_v2.sh
 │   ├── 06b_metaphlan_postprocess.sh
 │   ├── 06c_metaphlan_for_humann_vJun23.sh
