@@ -17,7 +17,7 @@ The main workflow consists of:
 7. **Taxonomic profiling** — `MetaPhlAn 4`
 8. **Taxonomic table postprocessing**
 9. **Functional profiling** — `HUMAnN 3`
-10. **Functional table postprocessing and visualization**
+10. **postprocessing and visualization**
 
 ## Repository Structure
 
@@ -36,7 +36,7 @@ The main workflow consists of:
 ├── 07b_humann3_postprocess_v6.sh
 ├── 07c_humann3_plots.py
 ├── rename_fastq.sh
-└── R/
+└── R/ Combined_Analysis_Script_FINAL.R
 ```
 
 ## Requirements
@@ -100,7 +100,7 @@ bash 07_humann3_run_5M_vJun23.sh
 bash 07b_humann3_postprocess_v6.sh
 
 # Visualization
-python 07c_humann3_plots.py
+R Combined_Analysis_Script_FINAL.R
 ```
 
 Paths, database locations, and computational resource settings should be configured for the target environment before running the workflow.
