@@ -75,8 +75,6 @@ SAMPLE_R2.fastq.gz
 Scripts are designed to be executed sequentially:
 
 ```bash
-# Optional FASTQ renaming
-bash rename_fastq.sh
 
 # Read preprocessing
 bash 01_fastp_qc_v2.sh /path/to/raw_fastq
