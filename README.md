@@ -1,6 +1,6 @@
 # SAMS2 Metagenomics
 
-Shotgun metagenomics workflow developed for the **SAMS2 Healthy Ageing Gut Microbiome Project**, investigating gut microbiome composition and function in individuals aged 55 years and above.
+Shotgun metagenomics workflow developed for the **SAMS2:Shotgun metagenomics reveals taxonomic and functional gut microbiome signatures of resilient and unhealthy ageing in Saudi older adults **, investigating gut microbiome composition and function in individuals aged 55 years and above.
 
 The pipeline processes paired-end shotgun metagenomic sequencing data from raw FASTQ files through quality control, host-read removal, taxonomic profiling, and functional profiling.
 
@@ -130,6 +130,6 @@ The scripts were originally developed for a high-performance computational envir
 
 ## Project
 
-**SAMS2 Healthy Ageing Shotgun Metagenomics Project**
+**SAMS2: Shotgun metagenomics reveals taxonomic and functional gut microbiome signatures of resilient and unhealthy ageing in Saudi older adults**
 
 This repository provides the computational workflow used to process shotgun metagenomic sequencing data and generate taxonomic and functional microbiome profiles for downstream healthy-ageing analyses.
